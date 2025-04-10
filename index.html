@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NSBT - Home</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: url('https://webapp.bits-pilani.ac.in/storage/uploads/2022/1661845463-630dbfd710608.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    header {
+      background-color: #00RRGGBB;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: white;
+      color: #003366;
+      border-radius: 4px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 10rem 4rem 6rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(6px);
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+      margin: 2rem auto;
+      max-width: 900px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(0, 51, 102, 0.4);
+      color: white;
+      backdrop-filter: blur(8px);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NSBT</h1>
+    <nav>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <h2>Welcome to National School of Business and Technology</h2>
+    <p>Empowering the next generation in Business, Technology, and Innovation.</p>
+  </div>
+
+  <div class="section" id="about">
+    <h2>About Us</h2>
+    <p>NSBT is a premier institution focused on nurturing innovation in business and technology. Our faculty, curriculum, and community empower students to lead globally.</p>
+  </div>
+
+  <div class="section" id="departments">
+    <h2>Departments</h2>
+    <p>We offer specialized departments in Business Administration, Computer Science, Data Science, Engineering, and more.</p>
+  </div>
+
+  <div class="section" id="courses">
+    <h2>Courses</h2>
+    <p>Explore our wide range of undergraduate and graduate courses designed to build future-ready skills in today's competitive environment.</p>
+  </div>
+
+  <div class="section" id="admissions">
+    <h2>Admissions</h2>
+    <p>Join our vibrant community. Learn about our admission process, eligibility criteria, scholarship options, and how to apply.</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 National School of Business and Technology</p>
+  </footer>
+</body>
+</html>
